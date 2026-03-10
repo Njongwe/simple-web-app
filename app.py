@@ -4,9 +4,10 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-    <h1>Welcome to My DevOps Project!</h1>
+    <h1>Welcome to My Automated DevOps Project! 🚀</h1>
     <p>This application was automatically deployed using CI/CD pipeline.</p>
     <p>Student: Nitcheu shokoleu oliver njongwe</p>
+    <p><strong>Version 2.0 - Updated automatically!</strong></p>
     '''
 
 @app.route('/health')
